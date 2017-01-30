@@ -26,7 +26,7 @@ def moviePicker():
         print(movieSummary)
 
         while True:
-            answer = str(input("Have you already watched this movie? Enter Y or N. : "))
+            answer = str.upper((input("Have you already watched this movie? Enter Y or N. : ")))
             if answer in ['Y', 'N']:
                 break
             else:
